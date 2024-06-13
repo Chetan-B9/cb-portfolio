@@ -1,0 +1,5 @@
+.card{
+    &:hover{
+        box-shadow: var(--main-color2) 0px 50px 100px -20px, var(--main-color2) 0px 30px 60px -30px;
+    }
+}

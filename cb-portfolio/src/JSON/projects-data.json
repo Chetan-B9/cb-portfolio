@@ -1,0 +1,144 @@
+ [
+    {
+        "projectId" : "p1",
+        "projectName" : "Online Student Attendance System (Get Attend)",
+        "description" : "Get Attend which is an Online Student Attendance System is designed and developed to streamline attendance tracking for teachers and students. This project offers an efficient, user-friendly interface for user registration and data storage. Teachers can easily record attendance, and students can access their attendance records through their student accounts. Get Attend aims to reduce administrative overhead, save time, and faster a paperless educational environment.",
+        "goal" : "This project aims to revolutionize student attendance by significantly reducing the time it takes to record it. We will create a streamlined and efficient platform for registering presence, eliminating cumbersome traditional methods. This not only saves valuable teaching time but also empowers educators to easily track student engagement and maintain accurate records.",
+        "features": [],
+        "myRole" : "For this project, I took ownership of both the UI design and development, along with building the backend codebase. While my teammate skillfully crafted the database structure, I brought it to life through implementation.",
+        "usedTechnologies" : ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP", "MySQL"],
+        "thumbnail" : "Images/Screenshots/Online Student Attendance System/Home page thumbnail.webp",
+        "screenshots" : [
+            "Images/Screenshots/Online Student Attendance System/Home page.webp",
+            "Images/Screenshots/Online Student Attendance System/About us page.webp",
+            "Images/Screenshots/Online Student Attendance System/Registration page.webp",
+            "Images/Screenshots/Online Student Attendance System/Wish page.webp",
+            "Images/Screenshots/Online Student Attendance System/Login page.webp",
+            "Images/Screenshots/Online Student Attendance System/Teacher dashboard.webp",
+            "Images/Screenshots/Online Student Attendance System/Attendance code generation page.webp",
+            "Images/Screenshots/Online Student Attendance System/Attendance Code page.webp",
+            "Images/Screenshots/Online Student Attendance System/Record Checking page.webp",
+            "Images/Screenshots/Online Student Attendance System/Profile update page.webp",
+            "Images/Screenshots/Online Student Attendance System/Student dashboard.webp",
+            "Images/Screenshots/Online Student Attendance System/Student Attendance page.webp",
+            "Images/Screenshots/Online Student Attendance System/Student Attendance record page.webp"
+
+        ],
+        "video" : "video/Get Attend Edited.webm",
+        "github" : "https://github.com/Chetan-B9/Online-Student-Attendance-System-College-Project"
+    },
+    
+    {
+        "projectId" : "p2",
+        "projectName" : "Audio Visualizer | Fun Project",
+        "description" : "This delightful audio visualizer is crafted for pure enjoyment, utilizing a blend of HTML, CSS, and JS. Designed solely for fun purposes, it promises a simple yet engaging experience.",
+        "goal" : "This Audio Visualizer is crafted for sheer enjoyment, serving as a delightful platform to elevate my proficiency in HTML, CSS, and JavaScript. Through its creation, I aim to enhance my skills and bring a touch of joy to the realm of web development.",
+        "features": [],
+        "myRole" : "UI design and Frontend is developed by me. ",
+        "usedTechnologies" : ["HTML", "CSS", "JavaScript"],
+        "thumbnail" : "Images/Screenshots/Audio Visualizer/Audio Visualizer img-2.webp",
+        "screenshots" : [
+            "Images/Screenshots/Audio Visualizer/Audio Visualizer img-1.webp",
+            "Images/Screenshots/Audio Visualizer/Audio Visualizer img-2.webp"
+        ],
+        "video" : "video/Audio Visualizer Edited.webm",
+        "github" : "https://github.com/Chetan-B9/Audio-Visualizer"
+    },
+
+    {
+        "projectId" : "p3",
+        "projectName" : "Music Player | Fun Project ",
+        "description" : "Allow me to unveil my latest mini project—a captivating and stylish music player crafted solely for the joy of creation and to elevate my proficiency in web development. This music player boasts a visually stunning user interface that not only serves you music but does so with mesmerizing visual effects and unparalleled music controls. Get ready to embark on a delightful musical journey with an experience like no other!",
+        "goal" : "This music player is crafted for sheer enjoyment, serving as a delightful platform to elevate my proficiency in HTML, CSS, and JavaScript. Through its creation, I aim to enhance my skills and bring a touch of joy to the realm of web development.",
+        "features": [],
+        "myRole" : "UI design and Frontend is developed by me. ",
+        "usedTechnologies" : ["HTML", "CSS", "JavaScript"],
+        "thumbnail" : "Images/Screenshots/Music Player/Music Player page 2.1.webp",
+        "screenshots" : [
+            "Images/Screenshots/Music Player/Music Player page 1.webp",
+            "Images/Screenshots/Music Player/Music Player page 2.webp",
+            "Images/Screenshots/Music Player/Music Player page 2.1.webp"
+        ],
+        "video" : "video/Music Player Edited.webm",
+        "github" : "https://github.com/Chetan-B9/Music-Player"
+    },
+
+    {
+        "projectId" : "p4",
+        "projectName" : "Personal Portfolio Project",
+        "description" : "This personal portfolio project showcases my web development skills by creating a responsive and visually appealing website. The website is built using HTML, CSS, JavaScript, and Bootstrap, and it highlights my experience, skills, projects, and contact information.",
+        "goal" : "As a web developer, my goal with this personal portfolio project is to showcase my skills and expertise in frontend development. Through this website, I aim to highlight my knowledge of web standards, best practices, and technologies while creating an engaging user experience for visitors. Additionally, I want to use this project to attract potential clients or employers and demonstrate my ability to create attractive and responsive websites.",
+        "features": [],
+        "myRole" : "I designed and developed this personal portfolio project from scratch using HTML, CSS, JavaScript, and Bootstrap. Starting with a content outline, I created a wireframe and then designed a custom layout and graphics using Adobe XD. I wrote the HTML and CSS code to bring the design to life and utilized JavaScript to add interactivity and dynamic effects. I also integrated Bootstrap to ensure that the website is responsive and accessible across devices and platforms. Overall, I performed the roles of developer, designer, and project manager throughout this project.",
+        "usedTechnologies" : ["HTML", "CSS", "Bootstrap", "JavaScript"],
+        "thumbnail" : "Images/Screenshots/Personal Portfolio/Home page.webp",
+        "screenshots" : [
+            "Images/Screenshots/Personal Portfolio/Home page.webp",
+            "Images/Screenshots/Personal Portfolio/projects page.webp",
+            "Images/Screenshots/Personal Portfolio/project detail.webp"
+        ],
+        "liveLink" : "https://chetan-b9.github.io/chetan-portfolio/index.html",
+        "github" : "not accessable"
+    },
+    {
+        "projectId" : "p5",
+        "projectName" : "Google Search Engine Clone",
+        "description" : "This project is a clone of the world-renowned Google Search Engine, recreated using HTML, CSS, and JavaScript. The aim of this project was to replicate the core functionality and user interface of Google's search engine while providing a hands-on learning experience for web development enthusiasts.",
+        "goal" : "The goal is to create a fully functional clone of the Google Search Engine using HTML, CSS, and JavaScript to showcase proficiency in front-end web development skills. Ensure that the clone replicates the key features and functionalities of the original Google Search, including: <span>Accurate search functionality</span>, <span>Responsive design</span>, <span>User-friendly interface</span>, <span>Search result display</span>.",
+        "features": [],
+        "myRole" : "Developed a functional search engine prototype, replicating core features of Google Search using HTML, CSS, and JavaScript. This project demonstrates my proficiency in: <span>Frontend Development</span>, <span>JavaScript Fundamentals</span>. I constructed a user-friendly interface with a search bar and results display, leveraging HTML and CSS for structure and styling. And I implemented search functionality using JavaScript, enabling users to enter queries and retrieve simulated results.",
+        "usedTechnologies" : ["HTML", "CSS", "JavaScript"],
+        "thumbnail" : "Images/Screenshots/Google Search Engine Clone/google search engine clone - 1.webp",
+        "screenshots" : [
+            "Images/Screenshots/Google Search Engine Clone/google search engine clone - 1.webp",
+            "Images/Screenshots/Google Search Engine Clone/google search engine clone - 2.webp",
+            "Images/Screenshots/Google Search Engine Clone/google search engine clone - 3.webp"
+        ],
+        "liveLink" : "https://chetan-b9.github.io/Google-search-engine-clone/",
+        "github" : "https://github.com/Chetan-B9/Google-search-engine-clone"
+    },
+    {
+        "projectId" : "p6",
+        "projectName" : "Form Validation - Mini Project",
+        "description" : "The 'Form Validation Project' is a compact yet powerful demonstration of form validation techniques using HTML, CSS, and JavaScript technologies. Designed to streamline the user input process, this project showcases the implementation of essential validation rules to ensure data integrity and enhance user experience.",
+        "goal" : "The primary goal of this mini project is to provide a user-friendly solution for validating form inputs in web applications. By leveraging the power of client-side validation techniques, the project aims to enhance data accuracy and improve the overall usability of web forms.",
+        "features": [
+            "<span><b>Attractive Design: </b></span>This has very attracive and cool design.",
+            "<span><b>Intuitive User Interface: </b></span>Seamlessly integrated validation messages guide users through the input process, making it easy to identify and correct errors.",
+            "<span><b>Real-time Feedback: </b></span>Instant feedback ensures users are notified of validation errors as they occur, facilitating prompt correction and submission.",
+            "<span><b>Cross-browser Compatibility: </b></span>Built with modern web technologies, the project ensures consistent performance across different web browsers, enhancing accessibility for users."
+        ],
+        "myRole" : "As the developer of this project, I conceptualized, designed, and implemented the project from scratch. Leveraging my expertise in HTML, CSS, and JavaScript, I crafted an intuitive and efficient solution to address common challenges associated with form validation in web development.",
+        "usedTechnologies" : ["HTML", "CSS", "JavaScript"],
+        "thumbnail" : "Images/Screenshots/Form Validation/form image 1.webp",
+        "screenshots" : [
+            "Images/Screenshots/Form Validation/form image 1.webp",
+            "Images/Screenshots/Form Validation/form image 2.webp",
+            "Images/Screenshots/Form Validation/form image 3.webp"
+        ],
+        "liveLink" : "https://chetan-b9.github.io/form-validation-mini-project/",
+        "github" : "https://github.com/Chetan-B9/form-validation-mini-project"
+    },
+    {
+        
+        "projectId" : "p7",
+        "projectName" : "Weather Application",
+        "description" : "This weather App is a modern and user-friendly web application that provides real-time weather information for any location worldwide. Built using HTML, CSS, and JavaScript, it offers a seamless and visually appealing experience across devices.",
+        "goal" : "The primary goal of this Weather App is to empower users with accurate and up-to-date weather data, enabling them to make informed decisions about their daily activities. Whether planning outdoor events, commuting, or simply staying informed about local conditions, this app serves as a reliable weather companion.",
+        "features": [
+            "<span><b>Real-time weather updates: </b></span> Leveraging advanced APIs, WeatherWise fetches and displays the latest meteorological data, including temperature, humidity, wind speed, and visibility.",
+            "<span><b>Intuitive user interface:  </b></span>The app boasts a clean and modern design, presenting weather information in an easily understandable format.",
+            "<span><b>Location search: </b></span>Users can quickly access weather details for any location by simply entering the city name ",
+            "<span><b>Responsive design: </b></span>The app is optimized for seamless functionality across various devices, from desktops to mobile phones, ensuring a consistent experience."
+        ],
+        "myRole" : "As the sole developer of this application, I was responsible for the entire project lifecycle, from conceptualization and design to implementation and deployment. I meticulously crafted the front-end codebase, ensuring optimal performance, accessibility, and cross-browser compatibility. Additionally, I integrated third-party weather APIs, implementing error handling and data caching mechanisms for a smooth user experience. Throughout the development process, I followed industry best practices, adhering to coding standards and employing modular, scalable architectures.",
+        "usedTechnologies" : ["HTML", "CSS", "JavaScript"],
+        "thumbnail" : "Images/Screenshots/Weather Application/weather-app-1.webp",
+        "screenshots" : [
+            "Images/Screenshots/Weather Application/weather-app-1.webp",
+            "Images/Screenshots/Weather Application/weather-app-2.webp"
+        ],
+        "liveLink" : "https://chetan-b9.github.io/weather-app-with-js/",
+        "github" : "https://github.com/Chetan-B9/weather-app-with-js"
+    }
+]
