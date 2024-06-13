@@ -4,9 +4,34 @@ import { useLoaderData } from "react-router-dom"
 import { Databases, Query } from "appwrite";
 import client from "../../lib/appwrite";
 import { Conf } from "../../conf/Conf";
+import { useEffect, useState } from "react";
 
 function Projects() {
-  const projects = useLoaderData()
+  // const loadedprojects = useLoaderData()
+  const [projects, setProjects] = useState([])
+
+  useEffect(() => {
+    const projectsData = async () => {
+      const databases = new Databases(client)
+        try{
+          const response = await databases.listDocuments(
+            Conf.appWriteDatabaseId,
+            Conf.apoWriteCollectionId,
+            [
+              Query.orderDesc("upload_date_time"),
+          ]
+          )
+    
+          setProjects(response.documents)
+        }
+        catch (error) {
+          console.log(console.error('Failed to fetch'));
+        }
+    }
+
+    projectsData()
+  }, [])
+
   return (
     <>
         {/* Breadcrubm start */}
@@ -18,7 +43,13 @@ function Projects() {
         {/* Breadcrubm end */}
 
         <section className="projects_section px-8 pt-10 md:px-20 lg:px-40">
-          <div className="container grid grid-cols-3 gap-x-5 gap-y-16">
+
+          {
+            !projects.length 
+              ? <div className="w-full text-center">
+                    <p className="text-msm text-secondary-text">Fetching Projects...</p> 
+                 </div>
+              : <div className="container grid grid-cols-3 gap-x-5 gap-y-16">
             {
               projects.map((project) => {
                 return (
@@ -28,6 +59,8 @@ function Projects() {
             }
             
           </div>
+          }
+          
         </section>
     </>
   )
@@ -35,20 +68,20 @@ function Projects() {
 
 export default Projects
 
-export const projectsData = async () => {
-  const databases = new Databases(client)
-    try{
-      const response = await databases.listDocuments(
-        Conf.appWriteDatabaseId,
-        Conf.apoWriteCollectionId,
-        [
-          Query.orderDesc("upload_date_time"),
-      ]
-      )
+// export const projectsData = async () => {
+//   const databases = new Databases(client)
+//     try{
+//       const response = await databases.listDocuments(
+//         Conf.appWriteDatabaseId,
+//         Conf.apoWriteCollectionId,
+//         [
+//           Query.orderDesc("upload_date_time"),
+//       ]
+//       )
 
-      return response.documents;
-    }
-    catch (error) {
-      console.log(console.error('Failed to fetch'));
-    }
-}
+//       return response.documents;
+//     }
+//     catch (error) {
+//       console.log(console.error('Failed to fetch'));
+//     }
+// }

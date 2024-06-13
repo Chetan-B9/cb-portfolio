@@ -37,7 +37,7 @@ function Home() {
 
     fetchData()
     
-  })
+  }, [])
   // const [threeProjects] = useState(projects.reverse().slice(0, 3))
   let reversable = true;
  
@@ -172,7 +172,7 @@ function Home() {
        <div className="flex flex-col gap-48">
          {
 
-          projects.map((project) => {
+          !projects.length ? <p className="text-msm text-secondary-text">Fetching Projects...</p> : projects.map((project) => {
             reversable = !reversable;
             return (
               <div key={project.project_id}>
@@ -198,9 +198,9 @@ function Home() {
         </div>
         <div className="container my-16 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-5">
           {
-            mySkills.map((skill) => {
+            mySkills.map((skill, index) => {
                 return (
-                  <div key={skill} className= {`${heroSecStyle.skill_box} bg-primary-bg p-10 flex flex-col items-center justify-center gap-3 text-sm rounded-xl transition duration-300 ease-in-out hover:scale-110`} data-aos="zoom-in">
+                  <div key={index} className= {`${heroSecStyle.skill_box} bg-primary-bg p-10 flex flex-col items-center justify-center gap-3 text-sm rounded-xl transition duration-300 ease-in-out hover:scale-110`} data-aos="zoom-in">
                      <div className={`${heroSecStyle.skill_logo}`}>
                        <img src={skill.icon} alt={skill.skill} width={60} height={60} />
                      </div>

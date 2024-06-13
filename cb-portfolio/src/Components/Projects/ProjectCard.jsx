@@ -30,7 +30,7 @@ function ProjectCard(props) {
 
         <div className="mt-5 pb-3">
           <Link
-            to="#"
+            to={`/projects/project-details/${project_id}`}
             className=" text-sm underline underline-offset-4 hover:text-main hover:drop-shadow-glow "
           >
             View Project
