@@ -4,6 +4,10 @@
     --main-color2: #64f4ac0b;
 }
 
+  .custom-breadcrumb .ant-breadcrumb-separator {
+    color: #4CAF50; /* Your desired separator color */
+  }
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

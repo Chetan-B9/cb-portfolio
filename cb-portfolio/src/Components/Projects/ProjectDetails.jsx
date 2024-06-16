@@ -118,7 +118,8 @@ function ProjectDetails() {
 
     }
 
-    <div className='w-full mt-10 md:w-[70%]'>
+     {
+      Object.keys(projects).length > 0 && <div className='w-full mt-10 md:w-[70%]'>
               <h2 className='text-lg font-bold text-main'>Screenshots: </h2>
     <div>
     
@@ -135,6 +136,8 @@ function ProjectDetails() {
 
   </div>
     </div>
+     }
+    
 
     {/* proposal section start  */}
     <div className="proposal_section px-8 py-14 md:px-20 lg:px-40 flex flex-col items-center gap-10 border-t-[.1px] border-secondary-text mt-14">

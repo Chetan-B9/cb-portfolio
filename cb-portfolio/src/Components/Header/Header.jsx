@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom"
 import { FaEnvelope } from "react-icons/fa";
+import resume from '../../Resume/Chetan B Resume 3.pdf'
 
 
 // import headerStyle from '../../CSS/Home page Styles/header.module.css'
@@ -23,7 +24,7 @@ function Header() {
                    <NavLink to="/projects" className={({isActive}) => isActive ? "text-main" : "text-primary-text hover:text-main"}>Projects</NavLink>
                 </li>
                 <li>
-                   <NavLink  className='hover:text-main'>Resume</NavLink>
+                   <a href="" className='hover:text-main' download={resume}>Resume</a>
                 </li>
                 <li>
                    <NavLink to="mailto:chetan.bedakihale80@gamil.com" className={({isActive}) => isActive ? "text-main" : "text-primary-text hover:text-main"}><FaEnvelope   /></NavLink>
