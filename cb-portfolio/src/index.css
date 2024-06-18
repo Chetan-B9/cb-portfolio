@@ -8,6 +8,12 @@
     color: #4CAF50; /* Your desired separator color */
   }
 
+  /* @media (width < 900px) {
+    html{
+      font-size: 90%;
+    }
+  } */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

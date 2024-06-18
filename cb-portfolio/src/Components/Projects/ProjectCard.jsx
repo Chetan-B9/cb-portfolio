@@ -22,7 +22,7 @@ function ProjectCard(props) {
 
       <div className="py-4 px-5">
         <div>
-          <h3 className="text-xl text-main">{project_name.length > 25 ? project_name.slice(0, 24) + '...' : project_name}</h3>
+          <h3 className="text-lg md:text-xl text-main">{project_name.length > 25 ? project_name.slice(0, 24) + '...' : project_name}</h3>
           <p className="text-msm mt-3 text-secondary-text text-justify">
             {description.slice(0, 120) + '...'}
           </p>

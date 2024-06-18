@@ -88,7 +88,7 @@ function Projects() {
           <Spin indicator={<LoadingOutlined spin style={{color: '#64f4ac'}} />} size="large" />
           <p className='text-secondary-text text-sm'>Loading Projects...</p>
         </div>
-              : <div className="container grid grid-cols-3 gap-x-5 gap-y-16">
+              : <div className="container grid grid-cols-1 min-[500px]:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-16">
             {
               projects.map((project) => {
                 return (
@@ -110,7 +110,10 @@ function Projects() {
       },
       '& .MuiPaginationItem-page.Mui-selected': {
         backgroundColor: '#64f4ac',
-        color: '#25262a',
+        color: 'white',
+        fontWeight: 'bold'
+
+        
       }
     }}/>
     </Stack>
