@@ -10,6 +10,9 @@ import { Databases, Query } from "appwrite";
 import client from "../../lib/appwrite";
 import { Conf } from "../../conf/Conf";
 
+import resume from '../../Resume/Chetan B Resume 3.pdf'
+
+
 // import SkillCard from "./SkillCard";
 
 function Home() {
@@ -96,7 +99,7 @@ function Home() {
 
   return (
     <>
-    <div className="container">
+    {/* <div className="container"> */}
 {/*  hero section start */}
 <section
       className={`${heroSecStyle.hero_section} px-8 pt-10 md:px-20 lg:px-40  flex flex-col lg:h-[calc(100vh - 76px)]`}
@@ -110,22 +113,22 @@ function Home() {
         </div>
         <div className="intro_part flex flex-col justify-center items-center lg:items-start gap-14">
           {/* <div className="bg-slate-600"> */}
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-3 items-center lg:items-start">
               <h3 className="">Hello, <span className="text-main">I&apos;m</span></h3>
-              <h2 className="text-5xl font-semibold"><span className="text-main p-0">Chetan</span> Bedakihale</h2>
+              <h2 className="text-5xl text-center font-semibold"><span className="text-main p-0">Chetan</span> Bedakihale</h2>
               <p className="text-sm text-secondary-text w-fit">Frontend Developer</p>
             </div>
           {/* </div> */}
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 items-center lg:items-start">
             <p className="text-msm text-secondary-text">Let&apos;s bring designs to life with code magic.</p>
-            <Link href="mailto:chetan.bedakihale80@gamil.com" className="text-main underline underline-offset-4 hover:drop-shadow-glow w-fit">Let&apos;s Talk</Link>
+            <Link to="mailto:chetan.bedakihale80@gmail.com" className="text-main underline underline-offset-4 hover:drop-shadow-glow w-fit">Let&apos;s Talk</Link>
           </div>
         </div>
       </div>
 
-      <div className="social_icons_container lg:h-[20%]">
+      <div className="social_icons_container lg:h-[20%] my-12 lg:my-0">
          <div className={`${heroSecStyle.social_links} h-full `}>
-            <ul className="flex gap-8 h-full items-center justify-end">
+            <ul className="flex gap-8 h-full items-center justify-center lg:justify-end">
               <li className="bg-secondary-bg p-3">
                 <Link to="#" target="_blank" className="hover:text-main hover:drop-shadow-glow transition duration-150 ease-in-out"><FaLinkedinIn /></Link>
               </li>
@@ -153,7 +156,7 @@ function Home() {
           <img src="Images/About me-cuate.png" alt="about me image" />
         </div>
 
-        <div className="h-full" data-aos="fade-left">
+        <div className="h-full mt-3 lg:mt-0" data-aos="fade-left">
        <div className=" text-sm text-justify text-secondary-text h-full flex flex-col justify-center">
          <p>As a web developer, coding has been my playground for years. With a toolbox of HTML, CSS, Bootstrap, JavaScript (React), and PHP, I bring ideas to life through dynamic web experiences. What drives me? The thrill of solving problems with elegant code, transforming concepts into pixels, and connecting with people through the digital realm.
         </p>
@@ -169,7 +172,7 @@ function Home() {
     <section className={`project_section px-8 py-14 md:px-20 lg:px-40 flex flex-col gap-16 text-center`}>
        <h3 className="text-4xl text-main  font-bold">My Projects</h3>
 
-       <div className="flex flex-col gap-48">
+       <div className="flex flex-col gap-44 lg:gap-48">
          {
 
           !projects.length ? <p className="text-msm text-secondary-text">Fetching Projects...</p> : projects.map((project) => {
@@ -196,7 +199,7 @@ function Home() {
         <div className="text-center">
           <h3 className="text-4xl text-main  font-bold">My Skills</h3>
         </div>
-        <div className="container my-16 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-5">
+        <div className="container mt-16 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5">
           {
             mySkills.map((skill, index) => {
                 return (
@@ -205,7 +208,7 @@ function Home() {
                        <img src={skill.icon} alt={skill.skill} width={60} height={60} />
                      </div>
                      <div>
-                        <p className="">{skill.skill}</p>
+                        <p className="text-center">{skill.skill}</p>
                      </div>
                   </div>
                 )
@@ -234,9 +237,9 @@ function Home() {
 
     {/* resume button */}
     <div className="px-8 py-14 md:px-20 lg:px-40 bg-secondary-bg text-center ">
-      <Link to="#" className="bg-main px-10 py-3 text-secondary-bg rounded-md hover:drop-shadow-glow transition duration-200 ease-in-out" role="button">My Resume</Link>
+      <a href="" className="bg-main px-10 py-3 text-secondary-bg rounded-md hover:drop-shadow-glow transition duration-200 ease-in-out" role="button" download={resume}>My Resume</a>
     </div>
-    </div>
+    {/* </div> */}
     
     </>
    

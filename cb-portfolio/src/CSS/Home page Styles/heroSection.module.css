@@ -3,19 +3,11 @@
 }
 
 .image_part{
-    /* .circle{
-        width: 25rem;
-        height: 25rem;
-        z-index: -1; 
-    } */
-
     img{
         width: 29rem;
         height: 29rem;
         object-fit: cover;
-
-    }
-    
+    } 
 }
 
 .social_links{
@@ -57,4 +49,16 @@
     .hero_section{
         height: fit-content;
     }
+}
+
+@media (width < 567px){
+    .project_img{
+        width: 100%;
+    }
+
+    .image_part img{
+            width: 22rem;
+            height: 22rem;
+    } 
+    
 }
