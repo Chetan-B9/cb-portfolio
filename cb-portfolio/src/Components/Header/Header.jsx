@@ -18,7 +18,7 @@ function Header() {
     //  header portion of the home page
     <section className="px-8 md:px-20 lg:px-40 flex">
         <div className="flex gap-2 items-center w-1/3 ">
-            <img src="./cb logo.png" alt="logo" width={20}/>
+            <img src="/cb logo.png" alt="logo" width={20}/>
             <h2 className="font-dm-sans text-lg tracking-widest font-extrabold">Portfolio</h2>
         </div>
         <div className="md:hidden w-full">
@@ -58,9 +58,6 @@ function Header() {
                 <li className="">
                     <NavLink to="/" className={({isActive}) => isActive ? "text-main" : "text-primary-text hover:text-main"}>Home</NavLink>
                 </li>
-                {/* <li className="hover:text-main">
-                   <NavLink to="/about" className={({isActive}) => isActive ? "text-main" : "text-primary-text"}>About</NavLink>
-                </li> */}
                 <li>
                    <NavLink to="/projects" className={({isActive}) => isActive ? "text-main" : "text-primary-text hover:text-main"}>Projects</NavLink>
                 </li>
