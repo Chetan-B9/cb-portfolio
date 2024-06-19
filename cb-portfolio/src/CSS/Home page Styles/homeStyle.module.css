@@ -1,0 +1,112 @@
+.hero_section {
+  height: calc(100vh - 76px);
+}
+
+.image_part {
+  img {
+    width: 29rem;
+    height: 29rem;
+    object-fit: cover;
+  }
+}
+
+.social_links {
+  ul li {
+    clip-path: polygon(
+      30% 0%,
+      70% 0%,
+      100% 30%,
+      100% 70%,
+      70% 100%,
+      30% 100%,
+      0% 70%,
+      0% 30%
+    );
+    opacity: 0;
+    transform: translate3d(-1rem, 0, 0);
+    -webkit-transform: translate3d(-1rem, 0, 0);
+    -moz-transform: translate3d(-1rem, 0, 0);
+    -ms-transform: translate3d(-1rem, 0, 0);
+    -o-transform: translate3d(-1rem, 0, 0);
+  }
+
+  ul {
+    li:nth-child(1) {
+      animation: fade-right 0.3s ease-in-out forwards alternate;
+      -webkit-animation: fade-right 0.3s ease-in-out forwards alternate;
+    }
+    li:nth-child(2) {
+      animation: fade-right 0.3s ease-in-out 0.5s forwards alternate;
+      -webkit-animation: fade-right 0.3s ease-in-out 0.1s forwards alternate;
+    }
+
+    li:nth-child(3) {
+      animation: fade-right 0.3s ease-in-out 0.5s forwards alternate;
+      -webkit-animation: fade-right 0.3s ease-in-out 0.2s forwards alternate;
+    }
+    li:nth-child(4) {
+      animation: fade-right 0.3s ease-in-out 0.5s forwards alternate;
+      -webkit-animation: fade-right 0.3s ease-in-out 0.3s forwards alternate;
+    }
+  }
+}
+
+/* about section style start  */
+.about_section > div img {
+  width: 25rem;
+  height: 25rem;
+}
+/* about section style end  */
+
+/* project section style start  */
+.project_img {
+  width: 80%;
+  height: 18rem;
+  box-shadow: var(--main-color2) 0px 50px 100px -20px,
+    var(--main-color2) 0px 30px 60px -30px;
+}
+
+/* project section style end  */
+
+/* skills section style start  */
+.skill_box:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  .skill_logo img {
+    filter: drop-shadow(0px 8px 20px rgba(149, 157, 165, 0.271));
+    -webkit-filter: drop-shadow(0px 8px 20px rgba(149, 157, 165, 0.271));
+  }
+}
+
+/* animations */
+@keyframes fade-right {
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+  }
+}
+
+/* animations end */
+
+/* skills section style end  */
+
+@media (width < 1200px) {
+  .hero_section {
+    height: fit-content;
+  }
+}
+
+@media (width < 567px) {
+  .project_img {
+    width: 100%;
+  }
+
+  .image_part img {
+    width: 22rem;
+    height: 22rem;
+  }
+}

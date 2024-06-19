@@ -6,7 +6,6 @@ import Projects from './Components/Projects/Projects'
 import './index.css'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 import ProjectDetails from './Components/Projects/ProjectDetails'
-// import { projectsData } from './Components/Projects/Projects'
 
 const router = createBrowserRouter(
   createRoutesFromElements(

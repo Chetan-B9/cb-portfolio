@@ -1,9 +1,5 @@
-
-
 function SkillCard() {
-  return (
-    <div className="text-blue">SkillCard</div>
-  )
+  return <div className="text-blue">SkillCard</div>;
 }
 
-export default SkillCard
+export default SkillCard;

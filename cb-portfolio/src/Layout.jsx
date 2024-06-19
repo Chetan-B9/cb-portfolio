@@ -1,10 +1,9 @@
 import { useEffect } from "react";
-import { Outlet } from "react-router-dom"
-import Footer from "./Components/Footer/Footer"
-import Header from "./Components/Header/Header"
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
+import { Outlet } from "react-router-dom";
+import Footer from "./Components/Footer/Footer";
+import Header from "./Components/Header/Header";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Layout() {
   useEffect(() => {
@@ -19,7 +18,7 @@ function Layout() {
       <Outlet />
       <Footer />
     </>
-  )
+  );
 }
 
-export default Layout
+export default Layout;

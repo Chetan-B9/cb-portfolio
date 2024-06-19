@@ -1,18 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap'); 
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
-:root{
-    --main-color2: #64f4ac0b;
+:root {
+  --main-color2: #64f4ac0b;
 }
 
-  .custom-breadcrumb .ant-breadcrumb-separator {
-    color: #4CAF50; /* Your desired separator color */
-  }
-
-  /* @media (width < 900px) {
-    html{
-      font-size: 90%;
-    }
-  } */
+.custom-breadcrumb .ant-breadcrumb-separator {
+  color: #4caf50; /* Your desired separator color */
+}
 
 @tailwind base;
 @tailwind components;
