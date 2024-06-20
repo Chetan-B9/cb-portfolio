@@ -59,6 +59,7 @@ function ProjectDetails() {
   }, [pId]);
 
   return (
+    <>
     <section className="container px-8  md:px-20 lg:px-40 mt-10">
       <div className="mb-10">
         <button
@@ -70,8 +71,8 @@ function ProjectDetails() {
       </div>
       {Object.keys(projects).length > 0 ? (
         <div className="flex flex-col md:flex-row gap-12 md:gap-16">
-          <div className="w-full  md:w-[70%] flex flex-col gap-4">
-            <h1 className="text-xl md:text-3xl lg:text-4xl text-main font-bold">
+          <div className="w-full md:w-[70%] flex flex-col gap-4">
+            <h1 className="text-2xl md:text-3xl lg:text-4xl text-main font-bold">
               {project_name}
             </h1>
             <p className="text-sm text-justify">{description}</p>
@@ -98,7 +99,7 @@ function ProjectDetails() {
           <div className="">
             <div>
               <h2 className="text-main font-bold">Used technologies</h2>
-              <div className="flex gap-3 rounded-lg mt-4">
+              <div className="flex flex-wrap gap-3 rounded-lg mt-4">
                 {technologies &&
                   technologies.map(
                     (tech, index) =>
@@ -161,11 +162,11 @@ function ProjectDetails() {
           <div>
             <Carousel
               arrows
-              dotPosition="left"
+              dotPosition="bottom"
               draggable={true}
               infinite={true}
               autoplay
-              className=" pl-6 py-6"
+              className=" py-6"
             >
               {screenshots &&
                 screenshots.map((screenshot, index) => {
@@ -188,10 +189,12 @@ function ProjectDetails() {
         </div>
       )}
 
-      {/* proposal section start  */}
-      <Social />
-      {/* proposal section end  */}
+      
     </section>
+    {/* proposal section start  */}
+    <Social />
+    {/* proposal section end  */}
+    </>
   );
 }
 

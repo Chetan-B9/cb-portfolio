@@ -88,9 +88,9 @@ function Home() {
     <>
       {/*  hero section start */}
       <section
-        className={`${homeStyle.hero_section} px-8 pt-10 md:px-20 lg:px-40  flex flex-col lg:h-[calc(100vh - 76px)]`}
+        className={`${homeStyle.hero_section} px-8 py-0 md:py-10 md:px-20 lg:px-40  flex flex-col lg:h-[calc(100vh - 76px)]`}
       >
-        <div className="container lg:h-[80%] grid grid-cols-1 lg:grid-cols-2">
+        <div className="container lg:h-[100%] grid grid-cols-1 lg:grid-cols-2">
           <div
             className={`${homeStyle.image_part} h-full flex justify-center items-center`}
           >
@@ -101,7 +101,7 @@ function Home() {
               <h3 className="">
                 Hello, <span className="text-main">I&apos;m</span>
               </h3>
-              <h2 className="text-5xl text-center font-semibold">
+              <h2 className="text-5xl text-center lg:text-start font-semibold">
                 <span className="text-main p-0">Chetan</span> Bedakihale
               </h2>
               <TypeAnimation
@@ -136,7 +136,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="social_icons_container lg:h-[20%] my-12 lg:my-0">
+        <div className="social_icons_container my-12 lg:my-0">
           <div className={`${homeStyle.social_links} h-full `}>
             <ul className="flex gap-8 h-full items-center justify-center lg:justify-end">
               <li className={`bg-secondary-bg p-3 `}>
@@ -188,7 +188,7 @@ function Home() {
         <h3 className="text-4xl text-main  font-bold">About Me</h3>
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="flex justify-center" data-aos="fade-right">
-            <img src="Images/About me-cuate.png" alt="about me image" />
+            <img src="Images/About me-cuate.png" alt="about me image"/>
           </div>
 
           <div className="h-full mt-3 lg:mt-0" data-aos="fade-left">
@@ -223,7 +223,7 @@ function Home() {
       >
         <h3 className="text-4xl text-main  font-bold">My Projects</h3>
 
-        <div className="flex flex-col gap-44 lg:gap-48">
+        <div className="flex flex-col gap-32 md:gap-44 lg:gap-48">
           {!projects.length ? (
             <p className="text-msm text-secondary-text">Fetching Projects...</p>
           ) : (

@@ -29,7 +29,7 @@ function ProjectCard({ projectName, description, id, thumbnail, rev }) {
           data-aos="fade-down"
         >
           <div
-            className={`${homeStyle.project_img} flex justify-center project_img rounded-xl`}
+            className={`${homeStyle.project_img} flex justify-center rounded-xl`}
           >
             <img
               src={

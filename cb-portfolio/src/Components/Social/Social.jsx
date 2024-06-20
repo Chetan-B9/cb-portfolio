@@ -8,7 +8,7 @@ import {
 
 function Social() {
   return (
-    <section className="proposal_section px-8 py-14 md:px-20 lg:px-40 flex flex-col items-center gap-10">
+    <section className="proposal_section px-8 md:px-20 lg:px-40 py-14 flex flex-col items-center gap-6">
       <div className="text-center w-full md:w-[70%] lg:w-1/2">
         <h3 className="font-dm-sans text-2xl font-bold">
           Interested in <span className="text-main">collaborating</span> with me?
