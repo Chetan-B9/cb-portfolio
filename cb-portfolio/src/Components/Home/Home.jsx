@@ -67,6 +67,10 @@ function Home() {
       icon: "Icons/skills icons/tailwind-css.png",
     },
     {
+      skill: "Sass",
+      icon: "Icons/skills icons/sass.png",
+    },
+    {
       skill: "Node.js",
       icon: "Icons/skills icons/nodejs.png",
     },
@@ -194,22 +198,16 @@ function Home() {
           <div className="h-full mt-3 lg:mt-0" data-aos="fade-left">
             <div className=" text-sm text-justify text-secondary-text h-full flex flex-col justify-center">
               <p>
-                As a web developer, coding has been my playground for years.
-                With a toolbox of HTML, CSS, Bootstrap, JavaScript (React), and
-                PHP, I bring ideas to life through dynamic web experiences. What
-                drives me? The thrill of solving problems with elegant code,
-                transforming concepts into pixels, and connecting with people
-                through the digital realm.
+              Hi, I&#39;m <strong className="text-main">Chetan</strong>, a passionate and versatile web developer specializing in frontend and full-stack development. 
               </p>
               <p className="mt-3">
-                If you&apos;re looking for a code warrior who&apos;s also a
-                creative enthusiast,{" "}
-                <Link to="#" className="text-main underline underline-offset-3">
-                  let&apos;s collaborate
-                </Link>{" "}
-                and build something awesome together. I&apos;m always eager to
-                join forces on cool projects that merge technical prowess with
-                innovative thinking.
+              With a strong foundation in <strong className="text-main">HTML</strong>, <strong className="text-main">CSS</strong>, and <strong className="text-main">JavaScript</strong>, I craft engaging user interfaces and seamless web experiences. My expertise extends to modern frameworks and libraries like <strong className="text-main">React</strong>, <strong className="text-main">Bootstrap</strong>, and <strong className="text-main">Tailwind CSS</strong>, allowing me to create responsive and visually appealing designs.
+              </p>
+              <p className="mt-3">
+              As a MERN stack developer, I&#39;m proficient in <strong className="text-main">MongoDB</strong>, <strong className="text-main">Express.js</strong>, <strong className="text-main">React</strong>, and <strong className="text-main">Node.js</strong>, enabling me to build robust full-stack applications. While I&#39;m a fresher in the industry, my enthusiasm for clean code, attention to detail, and eagerness to learn make me a valuable asset to any development team.
+              </p>
+              <p className="mt-3">
+              I&#39;m excited to bring my skills and creativity to challenging projects and contribute to innovative web solutions. <strong className="text-main">Let&#39;s build something amazing together!</strong> 
               </p>
             </div>
           </div>

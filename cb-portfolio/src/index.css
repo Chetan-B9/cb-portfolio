@@ -4,6 +4,21 @@
   --main-color2: #64f4ac0b;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #25262a;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #64f4ac;
+}
+
 .custom-breadcrumb .ant-breadcrumb-separator {
   color: #4caf50; /* Your desired separator color */
 }
