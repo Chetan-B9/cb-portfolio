@@ -92,9 +92,9 @@ function Home() {
     <>
       {/*  hero section start */}
       <section
-        className={`${homeStyle.hero_section} px-8 py-0 md:py-10 md:px-20 lg:px-40  flex flex-col overflow-x-hidden`}
+        className={`${homeStyle.hero_section} px-8 py-0 md:py-10 md:px-20 lg:px-40  flex flex-col`}
       >
-        <div className="container lg:h-[100%] grid grid-cols-1 lg:grid-cols-2">
+        <div className="lg:h-[100%] grid grid-cols-1 lg:grid-cols-2">
           <div
             className={`${homeStyle.image_part} h-full flex justify-center items-center`}
           >
@@ -102,7 +102,7 @@ function Home() {
           </div>
           <div className="intro_part flex flex-col justify-center items-center lg:items-start gap-14">
             <div className="flex flex-col gap-3 items-center lg:items-start">
-              <h3 className="">
+              <h3>
                 Hello, <span className="text-main">I&apos;m</span>
               </h3>
               <h2 className="text-5xl text-center lg:text-start font-semibold">
