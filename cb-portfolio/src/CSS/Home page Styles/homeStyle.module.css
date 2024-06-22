@@ -1,6 +1,5 @@
 .hero_section {
-  width: 100%;
-  /* height: calc(100vh - 76px); */
+  height: calc(100vh - 76px);
 }
 
 .image_part {
