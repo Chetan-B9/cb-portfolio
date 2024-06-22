@@ -62,7 +62,7 @@ function Header() {
                    <NavLink to="/projects" className={({isActive}) => isActive ? "text-main" : "text-primary-text hover:text-main"}>Projects</NavLink>
                 </li>
                 <li>
-                   <a href="" className='hover:text-main' download={resume}>Resume</a>
+                   <a href={resume} className='hover:text-main' download>Resume</a>
                 </li>
                 <li>
                    <NavLink to="mailto:chetan.bedakihale80@gamil.com" className={({isActive}) => isActive ? "text-main" : "text-primary-text hover:text-main"}><FaEnvelope   /></NavLink>

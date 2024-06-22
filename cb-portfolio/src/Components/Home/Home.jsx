@@ -290,10 +290,10 @@ function Home() {
       {/* resume button */}
       <div className="px-8 py-14 md:px-20 lg:px-40 bg-secondary-bg text-center ">
         <a
-          href=""
+          href={resume}
           className="bg-main px-10 py-3 text-secondary-bg rounded-md hover:drop-shadow-glow transition duration-200 ease-in-out"
           role="button"
-          download={resume}
+          download
         >
           My Resume
         </a>
