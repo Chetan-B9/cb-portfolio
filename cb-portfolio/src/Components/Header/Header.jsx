@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom"
 import { FaEnvelope, FaBars } from "react-icons/fa";
-// import { IoCloseSharp } from "react-icons/io5";
+import { IoCloseSharp } from "react-icons/io5";
 
 import resume from '../../Resume/Chetan B Resume 3.pdf'
 import { useState } from "react";
@@ -10,9 +10,9 @@ import { useState } from "react";
 function Header() {
     const [togle, setTogle] = useState(false);
     
-    // const handleTogle = () => {
-    //     setTogle(!togle)
-    // }
+    const handleTogle = () => {
+        setTogle(!togle)
+    }
 
   return (
     //  header portion of the home page
@@ -21,7 +21,7 @@ function Header() {
             <img src="/cb logo.png" alt="logo" width={20}/>
             <h2 className="font-dm-sans text-lg tracking-widest font-extrabold">Portfolio</h2>
         </div>
-        {/* <div className="md:hidden w-full">
+        <div className="md:hidden w-full">
             <div className="flex justify-end w-full">
               <button className="relative" onClick={handleTogle}>
               <FaBars />
@@ -52,7 +52,7 @@ function Header() {
                 </div>
               </div>
             </div>
-        </div> */}
+        </div>
         <div className="hidden md:flex flex-1 text-msm ">
             <ul className="md:flex justify-end items-center  gap-12 w-full h-full font-semibold">
                 <li className="">
