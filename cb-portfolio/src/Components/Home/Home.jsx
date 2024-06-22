@@ -92,7 +92,7 @@ function Home() {
     <>
       {/*  hero section start */}
       <section
-        className={`${homeStyle.hero_section} px-8 py-0 md:py-10 md:px-20 lg:px-40  flex flex-col`}
+        className={`${homeStyle.hero_section} px-8 py-0 md:py-10 md:px-20 lg:px-40  flex flex-col bg-blue-500`}
       >
         <div className="lg:h-[100%] grid grid-cols-1 lg:grid-cols-2">
           <div
