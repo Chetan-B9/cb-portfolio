@@ -105,7 +105,7 @@ function Home() {
               <h3>
                 Hello, <span className="text-main">I&apos;m</span>
               </h3>
-              <h2 className="text-xl md:text-3xl lg:text-5xl text-center lg:text-start font-semibold">
+              <h2 className="text-4xl md:text-5xl text-center lg:text-start font-semibold">
                 <span className="text-main p-0">Chetan</span> Bedakihale
               </h2>
               <TypeAnimation
