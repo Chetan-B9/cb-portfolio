@@ -94,9 +94,9 @@ function Home() {
       <section
         className={` px-8 py-5 md:py-10 md:px-20 lg:px-40  flex flex-col `}
       >
-        <div className="bg-blue-500" style={{width: "100vw !important"}}>
+        {/* <div className="bg-blue-500">
           hh
-        </div>
+        </div> */}
         {/* <div className="container h-fit lg:h-[calc(100vh-12rem)] grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-8">
           <div
             className={`${homeStyle.image_part} h-full flex justify-center items-center`}
