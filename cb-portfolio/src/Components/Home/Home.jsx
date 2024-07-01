@@ -95,12 +95,12 @@ function Home() {
         className={` px-8 py-5 md:py-10 md:px-20 lg:px-40  flex flex-col `}
       >
         <div className="container h-fit lg:h-[calc(100vh-12rem)] grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-8">
-          <div
+          {/* <div
             className={`${homeStyle.image_part} h-full flex justify-center items-center`}
           >
             <img src="Images/cb portfolio3.webp" alt="My image" />
           </div>
-          {/* <div className="intro_part flex flex-col justify-center items-center lg:items-start gap-14">
+          <div className="intro_part flex flex-col justify-center items-center lg:items-start gap-14">
             <div className="flex flex-col gap-3 items-center lg:items-start">
               <h3>
                 Hello, <span className="text-main">I&apos;m</span>
