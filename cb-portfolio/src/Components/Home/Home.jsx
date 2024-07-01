@@ -92,16 +92,15 @@ function Home() {
     <>
       {/*  hero section start */}
       <section
-        className={` px-8 py-5 md:py-10 md:px-20 lg:px-40  flex flex-col w-full bg-blue-500
-        `}
+        className={` px-8 py-5 md:py-10 md:px-20 lg:px-40  flex flex-col `}
       >
-        <div className="container h-fit lg:h-[calc(100vh-12rem)] grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-8 bg-red-300">
+        <div className="container h-fit lg:h-[calc(100vh-12rem)] grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-8">
           <div
-            className={`${homeStyle.image_part} h-full flex justify-center items-center bg-green-500`}
+            className={`${homeStyle.image_part} h-full flex justify-center items-center`}
           >
             <img src="Images/cb portfolio3.webp" alt="My image" />
           </div>
-          <div className="flex flex-col justify-center items-center lg:items-start gap-14 bg-gray-800">
+          <div className="intro_part flex flex-col justify-center items-center lg:items-start gap-14">
             <div className="flex flex-col gap-3 items-center lg:items-start">
               <h3>
                 Hello, <span className="text-main">I&apos;m</span>
@@ -127,7 +126,7 @@ function Home() {
                 repeat={Infinity}
               />
             </div>
-            <div className="flex flex-col gap-2 items-center lg:items-start bg-orange-700">
+            <div className="flex flex-col gap-2 items-center lg:items-start">
               <p className="text-msm text-secondary-text text-center">
                 Let&apos;s bring designs to life with code magic.
               </p>

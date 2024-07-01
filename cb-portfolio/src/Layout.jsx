@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Outlet } from "react-router-dom";
 import Footer from "./Components/Footer/Footer";
-import Header from "./Components/Header/Header";
+// import Header from "./Components/Header/Header";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -14,7 +14,7 @@ function Layout() {
 
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <Outlet />
       <Footer />
     </>
