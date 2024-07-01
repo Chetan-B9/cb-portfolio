@@ -92,9 +92,9 @@ function Home() {
     <>
       {/*  hero section start */}
       <section
-        className={`${homeStyle.hero_section} px-8 py-0 md:py-10 md:px-20 lg:px-40  flex flex-col`}
+        className={` px-8 py-5 md:py-10 md:px-20 lg:px-40  flex flex-col `}
       >
-        <div className="container lg:h-[100%] grid grid-cols-1 lg:grid-cols-2">
+        <div className="container h-fit lg:h-[calc(100vh-12rem)] grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-8">
           <div
             className={`${homeStyle.image_part} h-full flex justify-center items-center`}
           >

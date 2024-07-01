@@ -1,6 +1,3 @@
-.hero_section {
-  height: calc(100vh - 76px);
-}
 
 .image_part {
   img {
@@ -94,10 +91,15 @@
 
 /* skills section style end  */
 
-@media (width < 1200px) {
-  .hero_section {
-    height: fit-content;
+@media (width < 1500px) {
+ 
+  .image_part img {
+    width: 25rem;
+    height: 25rem;
   }
+}
+
+@media (width < 1200px) {
 
   .image_part img {
     width: 22rem;
