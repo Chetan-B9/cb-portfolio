@@ -94,7 +94,7 @@ function Home() {
       <section
         className={` px-8 py-5 md:py-10 md:px-20 lg:px-40  flex flex-col `}
       >
-        <div style={{width: "100vw"}}>
+        <div className="bg-blue-500" style={{width: "100vw !important"}}>
           hh
         </div>
         {/* <div className="container h-fit lg:h-[calc(100vh-12rem)] grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-8">
