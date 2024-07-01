@@ -8,7 +8,7 @@ import {
   FaAngleRight,
 } from "react-icons/fa";
 import ProjectCard from "./ProjectCard";
-import { TypeAnimation } from "react-type-animation";
+// import { TypeAnimation } from "react-type-animation";
 
 import { useEffect, useState } from "react";
 import { Databases, Query } from "appwrite";
@@ -94,7 +94,7 @@ function Home() {
       <section
         className={` px-8 py-5 md:py-10 md:px-20 lg:px-40  flex flex-col `}
       >
-        <div className="container h-fit lg:h-[calc(100vh-12rem)] grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-8">
+        {/* <div className="container h-fit lg:h-[calc(100vh-12rem)] grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-8">
           <div
             className={`${homeStyle.image_part} h-full flex justify-center items-center`}
           >
@@ -138,7 +138,7 @@ function Home() {
               </Link>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="social_icons_container my-12 lg:my-0">
           <div className={`${homeStyle.social_links} h-full `}>
