@@ -91,52 +91,7 @@ function Home() {
   return (
     <>
       {/*  hero section start */}
-      <section className="px-8 py-5 md:py-10 md:px-20 lg:px-40 flex flex-col overflow-x-hidden">
-  <div className="container h-fit lg:h-[calc(100vh-12rem)] grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-8 w-full max-w-full overflow-x-hidden">
-    <div className={`${homeStyle.image_part} h-full flex justify-center items-center w-full max-w-full`}>
-      <img src="Images/cb portfolio3.webp" alt="My image" className="max-w-full"/>
-    </div>
-    <div className="intro_part flex flex-col justify-center items-center lg:items-start gap-14 w-full max-w-full">
-      <div className="flex flex-col gap-3 items-center lg:items-start">
-        <h3>
-          Hello, <span className="text-main">I&apos;m</span>
-        </h3>
-        <h2 className="text-4xl md:text-5xl text-center lg:text-start font-semibold">
-          <span className="text-main p-0">Chetan</span> Bedakihale
-        </h2>
-        <TypeAnimation
-          sequence={[
-            "Frontend Developer",
-            3000,
-            "Web Developer",
-            3000,
-            "React Developer",
-            3000,
-            "MERN Stack Developer",
-            3000,
-          ]}
-          wrapper="span"
-          speed={50}
-          className="text-sm text-secondary-text"
-          repeat={Infinity}
-        />
-      </div>
-      <div className="flex flex-col gap-2 items-center lg:items-start">
-        <p className="text-msm text-secondary-text text-center">
-          Let&apos;s bring designs to life with code magic.
-        </p>
-        <Link
-          to="mailto:chetan.bedakihale80@gmail.com"
-          className="text-main underline underline-offset-4 hover:drop-shadow-glow w-fit"
-        >
-          Let&apos;s Talk
-        </Link>
-      </div>
-    </div>
-  </div>
-</section>
-
-      {/* <section
+      <section
         className={` px-8 py-5 md:py-10 md:px-20 lg:px-40  flex flex-col `}
       >
         
@@ -228,7 +183,7 @@ function Home() {
             </ul>
           </div>
         </div>
-      </section> */}
+      </section>
       {/* hero section end */}
 
       {/* About section start */}
