@@ -94,9 +94,11 @@ function Home() {
       <section
         className={` px-8 py-5 md:py-10 md:px-20 lg:px-40  flex flex-col `}
       >
-        <div className="container h-fit lg:h-[calc(100vh-12rem)] ">
-          <p>hello 3</p>
-          {/* <div
+        <div>
+          hh
+        </div>
+        {/* <div className="container h-fit lg:h-[calc(100vh-12rem)] grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-8">
+          <div
             className={`${homeStyle.image_part} h-full flex justify-center items-center`}
           >
             <img src="Images/cb portfolio3.webp" alt="My image" />
@@ -138,8 +140,8 @@ function Home() {
                 Let&apos;s Talk
               </Link>
             </div>
-          </div> */}
-        </div>
+          </div>
+        </div> */}
 
         <div className="social_icons_container my-12 lg:my-0">
           <div className={`${homeStyle.social_links} h-full `}>
