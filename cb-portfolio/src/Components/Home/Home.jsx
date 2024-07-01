@@ -94,7 +94,7 @@ function Home() {
       <section
         className={` px-8 py-5 md:py-10 md:px-20 lg:px-40  flex flex-col `}
       >
-        <div>
+        <div style={{width: "100vw"}}>
           hh
         </div>
         {/* <div className="container h-fit lg:h-[calc(100vh-12rem)] grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-8">
@@ -143,7 +143,7 @@ function Home() {
           </div>
         </div> */}
 
-        <div className="social_icons_container my-12 lg:my-0">
+        <div className="my-12 lg:my-0">
           <div className={`${homeStyle.social_links} h-full `}>
             <ul className="flex gap-8 h-full items-center justify-center lg:justify-end">
               <li className={`bg-secondary-bg p-3 `}>
