@@ -46,9 +46,6 @@ function Add() {
     let res = [];
 
     setShowLoad(true);
-    // console.log(data.screenshots);
-
-    // console.log({...data, features: data.features.split(',')});
 
     const storagePromise = await storage.createFile(
       Conf.appWriteThumbnailsBucketId,
