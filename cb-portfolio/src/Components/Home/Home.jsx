@@ -90,6 +90,7 @@ function Home() {
 
   return (
     <>
+      <div></div>
       {/*  hero section start */}
       <section
         className={` px-8 py-5 md:py-10 md:px-20 lg:px-40  flex flex-col `}
