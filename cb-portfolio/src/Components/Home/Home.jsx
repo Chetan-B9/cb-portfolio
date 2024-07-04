@@ -89,8 +89,7 @@ function Home() {
   ];
 
   return (
-    <div>
-      {/* <div></div> */}
+    <>
       {/*  hero section start */}
       <section
         className={` px-8 py-5 md:py-10 md:px-20 lg:px-40  flex flex-col `}
@@ -218,7 +217,7 @@ function Home() {
       {/* About section end  */}
 
       {/* Projects section start  */}
-      <section
+      {/* <section
         className={`project_section px-8 py-14 md:px-20 lg:px-40 flex flex-col gap-16 text-center`}
       >
         <h3 className="text-4xl text-main  font-bold">My Projects</h3>
@@ -251,7 +250,7 @@ function Home() {
             See More <FaAngleRight />
           </Link>
         </div>
-      </section>
+      </section> */}
       {/* Projects section end  */}
 
       {/* Skills section start  */}
@@ -300,7 +299,7 @@ function Home() {
           My Resume
         </a>
       </div>
-    </div>
+    </>
   );
 }
 
