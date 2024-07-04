@@ -1,7 +1,7 @@
 function Footer() {
   return (
     // Footer portion
-    <section className="px-8 py-1 md:px-20 lg:px-40 my-5">
+    <footer className="px-8 py-1 md:px-20 lg:px-40 my-5">
       {/* <div> */}
 
       <div className="flex flex-col md:flex-row gap-2 justify-center items-center  md:items-center md:justify-start">
@@ -16,7 +16,7 @@ function Footer() {
         </p>
       </div>
       {/* </div> */}
-    </section>
+    </footer>
   );
 }
 

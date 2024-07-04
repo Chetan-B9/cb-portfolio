@@ -16,7 +16,7 @@ function Header() {
 
   return (
     //  header portion of the home page
-    <section className="px-8 md:px-20 lg:px-40 flex">
+    <header className="px-8 md:px-20 lg:px-40 flex">
         <div className="flex gap-2 items-center w-1/3 ">
             <img src="/cb logo.png" alt="logo" width={20}/>
             <h2 className="font-dm-sans text-lg tracking-widest font-extrabold">Portfolio</h2>
@@ -69,7 +69,7 @@ function Header() {
                 </li>
             </ul>
         </div>
-    </section>
+    </header>
   )
 }
 
