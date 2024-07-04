@@ -1,0 +1,14 @@
+.card{
+    &:hover{
+        box-shadow: var(--main-color2) 0px 50px 100px -20px, var(--main-color2) 0px 30px 60px -30px;
+
+        div{
+            /* filter: grayscale(0); */
+            /*background: linear-gradient(0deg, rgba(0,0,0,0.8212535014005602) 0%, rgba(0,0,0,0.644782913165266) 35%, rgba(0,0,0,0) 100%);
+            /* */
+}
+    }
+}
+
+
+
